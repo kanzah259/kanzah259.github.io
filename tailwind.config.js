@@ -6,7 +6,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        orbitron: ["'Orbitron'", "sans-serif"],
+        exo2: ["'Exo 2'", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }
