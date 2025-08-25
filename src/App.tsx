@@ -1,7 +1,6 @@
 import Hero from "./sections/Hero/Hero";
-// import About from "./sections/About/About";
-import Button from "./components/button";
 import Navbar from "./components/navbar";
+import About from "./sections/About/About";
 
 function App() {
 
@@ -10,9 +9,7 @@ function App() {
 
     <Navbar />
     <Hero />
-    <Button />
-
-    {/* <About /> */}
+    <About />
 
     </div>
 
