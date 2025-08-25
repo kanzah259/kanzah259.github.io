@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero/Hero";
 import Navbar from "./components/navbar";
 import About from "./sections/About/About";
+import Experience from "./sections/Experience/Experience";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <Navbar />
     <Hero />
     <About />
+    <Experience />
 
     </div>
 
