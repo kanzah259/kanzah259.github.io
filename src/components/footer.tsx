@@ -2,7 +2,7 @@
 const Footer = () => (
 
     <div>
-        <div className="text-center">
+        <div className="text-center snap-start">
             <div className="border-t border-[#00FFFF] bottom-2"></div>
             <h4 className="font-orbitron text-[#E0E0E0] font-bold text-[16px] pt-1">© 2025 Kanzah Hussain all rights reserved</h4>
             <div className="flex justify-center pt-3 pb-3">

@@ -1,6 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -18,8 +20,14 @@ body {
   min-height: 100vh;
 }  */
 
+
 body {
   background-color: #0a0a0a;
+  scroll-snap-type: y mandatory;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 

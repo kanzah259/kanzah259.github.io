@@ -1,7 +1,7 @@
 
 const Contact = () => (
 
-    <section id="Contact"className="mt-8 h-screen">
+    <section id="Contact"className="mt-8 h-screen snap-start">
         <div className="text-left">
             <h3 className="font-orbitron text-[#00FFFF] text-[70px] pl-10 ml-10 pt-10 mt-10 font-bold pb-5">Contact</h3>
         </div>
