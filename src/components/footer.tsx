@@ -12,7 +12,7 @@ const Footer = ({isDarkMode}: FooterProps) => (
             <div className="flex justify-center pt-3 pb-3">
                 <div className="pr-3">
                     <a href="https://github.com/kanzah259" target="_blank" rel="noopener noreferrer">
-                    <img src={isDarkMode ? "public/github.svg" : "public/github-light.svg"} 
+                    <img src={isDarkMode ? "/github.svg" : "/github-light.svg"} 
                         alt="Github Link" 
                         width={32.5} 
                         height={35.5}>
@@ -23,7 +23,7 @@ const Footer = ({isDarkMode}: FooterProps) => (
                 <div className="pr-3">
                     <a href="https://www.linkedin.com/in/kanzah-hussain-970a90252" target="_blank" rel="noopener noreferrer">
                     <img 
-                        src={isDarkMode ? "public/linkedin.svg" : "public/linkedin-light.svg"}
+                        src={isDarkMode ? "/linkedin.svg" : "/linkedin-light.svg"}
                         alt="LinkedIn Link" 
                         width={33.5} 
                         height={31.5}>
