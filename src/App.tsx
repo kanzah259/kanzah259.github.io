@@ -16,14 +16,13 @@ function App() {
   useEffect(() => {
   if(isDarkMode) {
     document.documentElement.classList.add("dark");
-    console.log("it's working");
   } else {
     document.documentElement.classList.remove("dark");
   }
 }, [isDarkMode]);
 
   return (
-    <div className="bg-[#F5F5F5] dark:bg-gray-900 text-black dark:text-[white] transition-colors duration-300">
+    <div className="bg-[#F5F5F5] dark:bg-gray-900 text-[black] dark:text-[white] transition-colors duration-300">
 
     <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
     <Hero />
@@ -31,7 +30,7 @@ function App() {
     <Experience />
     <Projects />
     <Contact />
-    <Footer />
+    <Footer isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
 
     </div>
 
