@@ -22,7 +22,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }: NavbarProps) => (
                 <div>
                 <button onClick={toggleDarkMode}>
                 <img 
-                    src={isDarkMode ? "public/sun.svg" : "public/moon.svg"} 
+                    src={isDarkMode ? "public/sun.svg" : "public/moon-light.svg"} 
                     alt="Toggle dark mode" 
                     width={33.5} 
                     height={31.5}>
