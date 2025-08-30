@@ -30,7 +30,7 @@ function App() {
     <Experience />
     <Projects />
     <Contact />
-    <Footer isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+    <Footer isDarkMode={isDarkMode} />
 
     </div>
 
