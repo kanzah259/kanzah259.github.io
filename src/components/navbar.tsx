@@ -21,7 +21,12 @@ const Navbar = ({ isDarkMode, toggleDarkMode }: NavbarProps) => (
                 <li className= "active:dark:text-[#00FFFF] active:text-[#00AEEF] no-underline hover:underline dark:decoration-[#00FFFF] decoration-[#00AEEF] underline-offset-4 decoration-2"><a href="#Contact">Contact</a></li>
                 <div>
                 <button onClick={toggleDarkMode}>
-                <img src="public/sun.svg" alt="Toggle dark mode" width={33.5} height={31.5}></img>
+                <img 
+                    src={isDarkMode ? "public/sun.svg" : "public/moon.svg"} 
+                    alt="Toggle dark mode" 
+                    width={33.5} 
+                    height={31.5}>
+                </img>
                 </button>
             </div>
             </ul>
